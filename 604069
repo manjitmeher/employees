@@ -1,0 +1,12 @@
+public class Employee {
+	public static void main(String[] args) {
+		String name[]={"Robert","Sam","john"};
+		int yoj[]={1994,2000,1999};
+		String addr[]={"64C-WallsStreet","68D-WallsStreet","28B-WallsStreet"};
+		System.out.println("Name\t Date of joinning\tAddress");
+		for(int i=0; i<3;i++){
+			System.out.println(name[i]+"\t\t"+yoj[i]+"\t\t"+addr[i]);
+			}
+		
+	}
+}
